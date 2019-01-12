@@ -17,6 +17,7 @@ class Window:
     viewer : Viewer
         Contained viewer.
     """
+
     def __init__(self, viewer, show=True):
         self._qt_window = QMainWindow()
         self._qt_center = QWidget()
