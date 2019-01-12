@@ -7,6 +7,7 @@ from vispy.util.event import EmitterGroup, Event
 
 from .qt import QtDimensions
 
+
 class Dimensions:
     """Dimensions containing the dimension sliders
 
@@ -24,6 +25,7 @@ class Dimensions:
     max_shape : tuple of int
         Maximum shape of the contained layers.
     """
+
     def __init__(self, viewer):
 
         self.viewer = viewer
